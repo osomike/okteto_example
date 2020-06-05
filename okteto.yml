@@ -1,0 +1,16 @@
+name: oscar-mike-project
+image: python:3-slim
+command:
+  - bash
+environment:
+  - FLASK_ENV=development
+  - developer_name="Oscar Mike"
+  - dev_environment=okteto-k8s
+forward:
+  - 8080:8080
+reverse:
+  - 3500:3500
+persistentVolume:
+  enabled: True
+  storageClass: default
+  size: 2Gi
