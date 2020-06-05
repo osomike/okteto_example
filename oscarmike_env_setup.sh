@@ -11,4 +11,6 @@ pip install wheel
 # Creating virtual environment
 python -m venv test_env
 source test_env/bin/activate
+pip install --upgrade pip
+pip install wheel
 pip install -r requirements.txt

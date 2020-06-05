@@ -7,7 +7,7 @@ print('\n\n\n\nHola! We are about to execute your code inside {name} environment
     name=os.environ.get('dev_environment', 'Local')))
 
 print('Connecting to debugger...')
-pydevd_pycharm.settrace('localhost', port=3500, stdoutToServer=True, stderrToServer=True)
+#pydevd_pycharm.settrace('localhost', port=3500, stdoutToServer=True, stderrToServer=True)
 print('Debugger connected!\n')
 
 # Create data

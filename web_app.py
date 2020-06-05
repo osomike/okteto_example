@@ -6,7 +6,12 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello_world():
-    msg = 'Hello World!'
+    msg = 'Hello World Oscar Mike!'
+    return msg
+
+@app.route('/test')
+def index_test():
+    msg = 'This is a test!'
     return msg
 
 def attach():
@@ -17,6 +22,6 @@ def attach():
 if __name__ == '__main__':
   print('Starting hello-world server...')
   # comment out to use Pycharm's remote debugger
-  # attach()
+  #attach()
 
   app.run(host='localhost', port=8080)
