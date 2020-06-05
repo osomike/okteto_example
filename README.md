@@ -41,3 +41,6 @@ To get your credentials for our Kubernetes cluster:
 ```sh
 $ az aks get-credentials --resource-group OscarMikeResourceGroup --name OscarMikeK8sCluster
 ```
+
+### 3. Details about remote debugging with VS
+[Remote Kubernetes Development in Visual Studio Code with Okteto](https://medium.com/okteto/remote-kubernetes-development-in-visual-studio-code-with-okteto-8b96015b41a6)
